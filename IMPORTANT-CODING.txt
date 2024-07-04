@@ -1,0 +1,18 @@
+syntax migrations codeigniter 4
+php spark make:migration employeess -p Migrations
+======================================================
+set all route 
+$routes->setAutoRoute(true);
+=====================================================
+push GitHub
+git init
+git remote add origin <repositori_url>
+git pull origin <branch name>
+git add .
+git commit -m "message"
+git push -u origin <branch name>
+==========================================================
+Syntax MySQL error xampp
+mysqld --console --skip-grant-tables --skip-external-locking
+repair db
+mysqlcheck -r --databases mysql --use-frm
